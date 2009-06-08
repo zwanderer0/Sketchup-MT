@@ -1,7 +1,16 @@
-     # Create an entry in the SketchUp Extension list that loads a script called
+   
+
+
+
+
+   # Create an entry in the SketchUp Extension list that loads a script called
      # tuioconn.rb.
      require 'sketchup.rb'
      require 'extensions.rb'
+	 
+	 
+	 $sketchupmt_toolbar=UI::Toolbar.new "Multitouch"  #j9
+
 
      sketchupmt_extension = SketchupExtension.new "TUIO Conn", "SketchUpMT/tuioconn.rb"
      sketchupmt_extension.version = '0.1'
