@@ -17,5 +17,6 @@ def stop
   SKSocket.disconnect
   $out.flush
   $out.close
-  $out = nil
+  
+  puts 'Receiving Data'
 end
